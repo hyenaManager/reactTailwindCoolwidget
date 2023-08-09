@@ -50,7 +50,9 @@ export function NotiFication() {
         <div className="  grid grid-cols-2 mt-3 border-2 border-slate-300 p-2 rounded-md">
           <div className=" col-span-2 p-1 flex justify-evenly items-center">
             <img src="/khaing.svg" className="w-12 h-12 mr-2" />
-            <span className=" text-slate-700">May want to join the server</span>
+            <span className=" text-slate-700">
+              Khaing want to join the server
+            </span>
           </div>
           <div className=" flex justify-center">
             <button className=" rounded-md bg-blue-500 text-white hover:bg-blue-700 p-2 w-28">
