@@ -37,7 +37,7 @@ export default function Navigations() {
           />
         </svg>
       </div>
-      <ul className="bg-white m-1">
+      <ul className="bg-white m-1 md:mb-4">
         <li
           className={
             " p-2 m-1 rounded-xl flex justify-start cursor-pointer " +
@@ -200,7 +200,7 @@ export default function Navigations() {
           <span>notifications</span>
         </li>
       </ul>
-      <span className=" absolute bottom-0">
+      <span className=" absolute bottom-0 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

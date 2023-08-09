@@ -16,9 +16,9 @@ export function FanSupport() {
     <>
       <span className="flex justify-start p-3 font-bold ">Users</span>
       {/* // user analyser */}
-      <div className="flex justify-start mr-3 p-2">
+      <div className="flex justify-start mr-3 p-2 border-2">
         {/* //chart pie percentage */}
-        <svg id="circle" width="160" height="160" className=" ">
+        <svg id="circle" width="160" height="160" className=" border-2">
           <circle
             cx="70"
             cy="70"
