@@ -70,3 +70,13 @@ export function NotiFication() {
     </>
   );
 }
+
+export function Adds() {
+  return (
+    <>
+      <span className=" text-white text-4xl flex items-center justify-center">
+        Hire Us
+      </span>
+    </>
+  );
+}

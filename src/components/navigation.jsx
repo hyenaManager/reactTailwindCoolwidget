@@ -6,7 +6,7 @@ FontAwesomeIcon;
 export default function Navigations() {
   const [selectedLi, setSelectedLi] = useState("view");
   return (
-    <div className="row-span-3  bg-white rounded-xl ">
+    <>
       <div className="p-3 flex justify-between">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -221,6 +221,6 @@ export default function Navigations() {
           />
         </svg>
       </span>
-    </div>
+    </>
   );
 }
